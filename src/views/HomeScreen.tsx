@@ -125,19 +125,19 @@ const HomeScreen = ({navigation}:any) => {
             paddingHorizontal: 20,
           }}>
           <View style={{flex: 1}}>
-            <Text style={style.headerTitle}>Explore the</Text>
-            <Text style={style.headerTitle}>beautiful places</Text>
+            <Text style={style.headerTitle}>Explora parajes </Text>
+            <Text style={style.headerTitle}>hermosos con SUTi</Text>
             <View style={style.inputContainer}>
               <Icon name="search" size={28} />
               <TextInput
-                placeholder="Search place"
-                style={{color: Colors.grey}}
+                placeholder="Buscar"
+                style={{color: Colors.black}}
               />
             </View>
           </View>
         </View>
         <ListCategories />
-        <Text style={style.sectionTitle}>Places</Text>
+        <Text style={style.sectionTitle}>Lugares</Text>
         <View>
           <FlatList
             contentContainerStyle={{paddingLeft: 20}}
@@ -146,7 +146,7 @@ const HomeScreen = ({navigation}:any) => {
             data={places}
             renderItem={({item}) => <Card place={item} />}
           />
-          <Text style={style.sectionTitle}>Recommended</Text>
+          <Text style={style.sectionTitle}>Recomendados</Text>
           <FlatList
             snapToInterval={width - 20}
             contentContainerStyle={{paddingLeft: 20, paddingBottom: 20}}
@@ -195,7 +195,7 @@ const style = StyleSheet.create({
   iconContainer: {
     height: 60,
     width: 60,
-    backgroundColor: Colors.secondary,
+    backgroundColor: `#dcdcdc`,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,

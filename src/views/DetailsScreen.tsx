@@ -4,6 +4,7 @@ import {
   SafeAreaView,
   StatusBar,
   StyleSheet,
+  ScrollView,
   View,
   Text,
 } from 'react-native';
@@ -36,19 +37,19 @@ const DetailsScreen = ({navigation, route}:any) => {
             }}>
             {place.name}
           </Text>
-          <View style={{flexDirection: 'row'}}>
+          {/* <View style={{flexDirection: 'row'}}>
             <Icon name="star" size={30} color={Colors.orange} />
             <Text
               style={{color: Colors.white, fontWeight: 'bold', fontSize: 20}}>
               5.0
             </Text>
-          </View>
+          </View> */}
         </View>
       </ImageBackground>
-      <View style={style.detailsContainer}>
-        <View style={style.iconContainer}>
+      <ScrollView style={style.detailsContainer}>
+        {/* <View style={style.iconContainer}>
           <Icon name="favorite" color={Colors.red} size={30} />
-        </View>
+        </View> */}
         <View style={{flexDirection: 'row', marginTop: 10}}>
           <Icon name="place" size={28} color={Colors.primary} />
           <Text
@@ -62,12 +63,15 @@ const DetailsScreen = ({navigation, route}:any) => {
           </Text>
         </View>
         <Text style={{marginTop: 20, fontWeight: 'bold', fontSize: 20}}>
-          About the trip
+          Reseña
         </Text>
         <Text style={{marginTop: 20, lineHeight: 22}}>{place.details}</Text>
-      </View>
+        <Text style={{fontWeight: "bold"}}> {'\nDatos clave:'}</Text>
+        <Text style={{marginTop: 20, lineHeight: 22}}>{place.details1}</Text>
+        <Text></Text>
+      </ScrollView>
       <View style={style.footer}>
-        <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
+        {/* <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
           <Text
             style={{
               fontSize: 18,
@@ -85,11 +89,11 @@ const DetailsScreen = ({navigation, route}:any) => {
             }}>
             /PER DAY
           </Text>
-        </View>
+        </View> */}
         <View style={style.bookNowBtn}>
           <Text
             style={{color: Colors.primary, fontSize: 16, fontWeight: 'bold'}}>
-            Book Now
+            Obtener Ubicación
           </Text>
         </View>
       </View>
@@ -122,7 +126,7 @@ const style = StyleSheet.create({
     top: -30,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    paddingVertical: 40,
+    paddingVertical: 10,
     paddingHorizontal: 20,
     backgroundColor: Colors.white,
     flex: 0.3,

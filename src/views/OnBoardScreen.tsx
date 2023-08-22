@@ -18,20 +18,19 @@ const OnBoardScreen = ({navigation}:any) => {
         source={require('../../src/assets/onboardImage.jpg')}>
         <View style={style.details}>
           <Text style={{color: Colors.white, fontSize: 35, fontWeight: 'bold'}}>
-            Discover
+            Descubre
           </Text>
-          <Text style={{color: Colors.white, fontSize: 35, fontWeight: 'bold'}}>
-            world with us
+          <Text style={{color: Colors.white, fontSize: 35, fontWeight: 'bold'}}>             
+          {'el pais con \nnosotros'} 
           </Text>
           <Text style={{color: Colors.white, lineHeight: 25, marginTop: 15}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut
-            sem non erat vehicula dignissim. Morbi eget congue ante, feugiat.
+{            'Encuentra nuevos destinos, alojamiento y \neventos locales en un solo lugar.\n\n¡Vamos a explorar juntos!'}
           </Text>
           <TouchableOpacity
             activeOpacity={0.8}
             onPress={() => navigation.navigate('HomeScreen')}>
             <View style={style.btn}>
-              <Text style={{fontWeight: 'bold'}}>Get Started</Text>
+              <Text style={{fontWeight: 'bold'}}>Empezar</Text>
             </View>
           </TouchableOpacity>
         </View>

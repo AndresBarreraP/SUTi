@@ -5,6 +5,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/parque_caldas.jpg?alt=media&token=15871c1e-4759-4977-a52b-7b8e47a71e5f'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/parque_caldas.png?alt=media&token=e49878e9-8fc4-4bc8-a78f-f2ba6c62e2f3'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FLas%20historias%20detr%C3%A1s%20del%20Parque%20Caldas%20en%20Popay%C3%A1n.mp4?alt=media&token=db5ca212-7b89-43ee-895e-d16ef803714d'},
   details:`Cuando se fundó Popayán en 1537 este lugar hizo las veces de Plaza Mayor (o Plaza de Armas) y luego la gente compraba sus víveres porque también funcionó como plaza de mercado. 
   \nEn este lugar de caminos diagonales y circulares se extiende entre esquina y esquina un aura de historia que te ofrecerá, bajo la luz que atraviesa las copas de sus tupidos árboles, un espacio para caminar o permanecer.\n`,
   details1:`Aquí se situó el cepo hasta 1808, un artefacto empleado por las autoridades civiles para someter a los presos a escarnio público durante el periodo colonial.
@@ -16,6 +17,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/torre_del_reloj.jpg?alt=media&token=9262394b-48bc-4aee-ab28-c768cd833390'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/torre_del_reloj.png?alt=media&token=3cced7cf-b7fd-48e2-bc33-81e63616d1f4'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FReportajes%20a%20nuestra%20historia%20-%20La%20Torre%20del%20Reloj%20en%20Popay%C3%A1n%20(2da%20Parte)%20%20%20Telepac%C3%ADfico%20Noticias.mp4?alt=media&token=4db8451a-8da4-4833-814a-7615c1889b6a'},
   details: `Fue por el trabajo de un grupo de indígenas Nasa, quienes hicieron las veces de maestros de obra, que se edificó este lugar entre 1673 y 1682 por mandato del obispo Cristobal Bernaldo de Quirós Mazo. El obispo contrató arquitectos mestizos de Santafé, mismos orientarían el trabajo de los indígenas en esta conocida esquina de la calle quinta. 
   \nA esta construcción también se le conoce popularmente como la nariz de Popayán y no siempre funcionó como lo que hoy es pues en su planta inferior estuvo ubicado el primer baptisterio de la catedral, además, en algún momento la edificación fue usada como cárcel para religiosos y sacerdotes mientras se les emitía sentencia definitiva.`,
   details1:`Su uso como cárcel fue dictaminado por disposición de Mateo de Villafañe y Panduro, obispo de esta diócesis entre 1696 y 1714.
@@ -28,6 +30,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/teatro_guillermo.jpg?alt=media&token=29d3b3fd-9b5b-45de-bd2d-e4cb22d71ea0'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/teatro_guillermo_valencia.png?alt=media&token=52519ecf-1bd6-48db-a459-2b3181787788'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FVideo%20Teatro%20Guillermo%20Valencia.mp4?alt=media&token=638f471a-f49d-4ec5-ab85-86fd2c8b1f94'},
   details:`Indagando en la historia encontrarás que con la interpretación de la compañía italiana Bracale de la ópera Il Trovatore de Verdi el teatro fue inaugurado para las fechas en que se celebraría el centenario de fundación de la Universidad del Cauca.
   \nAl examinar en detalle su modelo arquitectónico y consultar, tal vez en internet, verás que se basó en el del Teatro Châtelet de París. 
   \nUna vez dentro, encontrarás varios de sus elementos decorativos, como el revestimiento de sus palcos que fueron encargados a una firma belga y confirmarás que se trata de un recinto magistral que desde 1998 es iluminado por la gran lámpara de cristal de Bohemia. `,
@@ -40,6 +43,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/puente_del_humilladero.jpg?alt=media&token=46f8eaf0-03dc-4d44-825d-3f5153679af1'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/puente_del_humilladero.png?alt=media&token=0144e73d-7f7a-4812-a803-5950ff6c09fe'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FPuente%20del%20humilladero%2C%20Popay%C3%A1n.mp4?alt=media&token=4d4e4ada-1d6b-45b6-8f4c-597b1da2f91e'},
   details:`Siempre he sentido gran fascinación por este puente que va desde el barrio Bolívar hasta el centro de la ciudad. Su nombre tal vez se deba a que hace muchos años los viajeros debían inclinar su cabeza para subir una pendiente pronunciada que existía antes de su construcción, cuando la gente ingresaba a la ciudad por el Camino Real del Portazgo del Norte.
   \nEl puente tiene doce arcos de medio punto de diferentes dimensiones con vistas a la Arcada o a las calles empedradas y el amplio verde circundante. `,
   details1:`La obra, de calidad poética dirían algunos sabios habitantes, fue creada durante el periodo Republicano: entre 1868 y 1873 bajo la dirección un religioso italiano conocido como fray Serafín Barbetti.
@@ -51,6 +55,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/morro_de_tulcan.jpg?alt=media&token=96b688f4-f2b7-48d0-b34b-7efa171499da'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/morro_de_tulcan.png?alt=media&token=51d4586f-dfd0-421a-b2c5-a97245156b8f'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FCERRO%20EL%20MORRO%20DE%20TULC%C3%81N%20POPAYAN%20CAUCA%20COLOMBIA.mp4?alt=media&token=79fd90cf-8032-466a-9ab1-724e760e94f0'},
   details:`Su nombre puede provenir de las voces quechuas “tulo”, pequeña estaca; “tulam”, cavar; “tulo”, talego, y “can”, tu, o haber sido formado por los vocablos del antiguo guambiano “Tul”: huerto de animales y “Kan”: uno.
   \nEntre mediados de 1957 y el segundo semestre de 1958 las investigaciones del historiador Julio César Cubillos confirmaron que El Morro es en realidad una pirámide prehispánica; la primera de su tipo hallada en territorio colombiano.
   \nEsta pirámide parece ser perteneciente a una etapa que los adultos llaman cultura formativa tardía, previa a la fundación hispánica de Popayán en 1537 por parte del español Sebastián de Belalcázar.`,
@@ -65,6 +70,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/iglesia_san_agustin.jpg?alt=media&token=e9c5feb0-eeea-4bdd-a555-69bd1c31b873'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/iglesia_san_agustin.png?alt=media&token=0a19f822-28fb-4cb1-a124-8bd50d8d5d91'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FPopay%C3%A1n%2C%20la%20ciudad%20que%20tiene%20una%20iglesia%20en%20cada%20esquina..mp4?alt=media&token=808a38f5-ebde-45c7-b2a8-75f571de5888'},
   details:`Las plegarias que hoy podéis elevar en el altar mayor tallado en madera, fueron escuchadas también en un templo y un convento primigenios, mismos que sufrirían graves daños a causa del terremoto del 2 de febrero del año 1736.
   \nAllende, el templo tuvo que ser reedificado con donativos de la devota Dionisia Pérez Manrique, conocida como Marquesa de San Miguel de la Vega, del payanés Jacinto de Mosquera Figueroa y Silva y del sacerdote José Beltrán de Caicedo. `,
   details1:`A causa de otro movimiento telúrico de 1827 la iglesia resultó nuevamente afectada por lo que debió ser reconstruida en 1834. Por su parte, el claustro conventual inició su uso escolar en la década del 50 del S. XX. 
@@ -76,6 +82,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/iglesia_de_belen.jpg?alt=media&token=5947bb62-6137-406d-acb7-c7e64471bfe3'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/santuario_de_belen.png?alt=media&token=4111dfaf-e2c5-47a5-835a-afb2140f4a18'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FSantuario%20de%20Belen.mp4?alt=media&token=3bc3042f-bad4-47db-aee6-ab0a8257435c'},
   details:`Fue entre 1681 y 1689 que obtuve la gracia de poder financiar, yo Juan Antonio de Velasco, la construcción del santuario, así como unos años antes, en 1680, costeé la imagen del Santo Ecce-Homo.
   \nLa cosa fue así: el ilustrísimo obispo Bernaldo de Quiróz Mazo me dio la licencia del levantamiento de este templo, una vez fui lo que comúnmente se conocía como esclavo liberto.
   \nDebo lamentar que el terremoto de 1885 afectó gravemente la construcción, pero tiempo después fue reedificada para ser aquejada nuevamente por el sismo de 1925.
@@ -91,6 +98,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/museo_guillermo.jpg?alt=media&token=ff6b40d4-722a-41f1-bd68-3e383433e422'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/museo_guillermo_valencia.png?alt=media&token=13fedab1-d642-438a-a6bd-171f11f7114f'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FUn%20corto%20paseo%20por%20la%20Casa%20Museo%20Guillermo%20Le%C3%B3n%20Valencia.Ven%20y%20vis%C3%ADtanos..mp4?alt=media&token=b8982479-26b1-47da-938c-fe0602a0d452'},
   details:`Me gustan la penumbra y la luz que nos cubre en los pasillos del museo. Aquí se alojan entrañables objetos: figuritas, cartas, sombreros, todo lo legado del poeta. Este lugar fue construido por el arquitecto payanés Marcelino Pérez de Arroyo a finales del S. XVIII. 
   \nMucho de lo que hoy forma el lugar, fue reconstruido bajo la orientación del señor Álvaro Pío Valencia, hijo del poeta, pues la fuerza del terremoto de 1983 le causó graves daños. El señor Álvaro Pío Valencia se convertiría luego en el primer director del museo.`,
   details1:`El encargo de edificar la casa a finales del S. XVIII se le atribuye al corregidor José Gregorio Angulo.
@@ -103,6 +111,7 @@ const places = [
   location: 'Popayán',
   image: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/sendero_de_las_3_cruces.jpg?alt=media&token=d1c3a1c5-a8e9-4121-8d46-1ac954b85928'},
   qr: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/cerro_las_3_cruces.png?alt=media&token=74096f39-fed5-4ca7-bccb-16cb88b24787'},
+  video: {uri: 'https://firebasestorage.googleapis.com/v0/b/suti-e9aba.appspot.com/o/Videos%20Popayan%2FCerro%20de%20las%20tres%20cruces%20y%20el%20cerro%20Tulc%C3%A1n%20(Popay%C3%A1n-Colombia).mp4?alt=media&token=6598cafc-0fa6-4939-a9e1-eed36c7ef735'},
   details:`En este cerro tal vez aprendas a mirar como nuevo aquello que ya conocías. Eso porque al subir desde su circundante sendero ecológico, hoy administrado por la Alcaldía de Popayán y la CRC, serás recibido por árboles y caminos trazados que dejan escuchar el paso del tiempo y las hojas al viento.
   \nAsí como podrás sentir la fuerza de la vida floreciendo en cada paso de su espiral ascendente, mismo que te conducirá hacia una ventana de ramas por la cual verás a Popayán.
   \nHay pocas cosas que la gente pueda desear tanto, por eso las Tres Cruces fue propiedad de Catalina Moreno de Zúñiga durante el periodo colonial, además, tuvo otros dueños incluyendo a la familia Caldas en 1830.`,

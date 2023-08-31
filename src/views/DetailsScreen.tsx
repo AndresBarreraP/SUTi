@@ -6,6 +6,7 @@ StatusBar,
 StyleSheet,
 ScrollView,
 TouchableOpacity,
+Button,
 Image,
 Modal,
 View,
@@ -18,6 +19,11 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 const DetailsScreen = ({navigation, route}:any) => {
 const {place,changeEnglish} = route.params;
 const [modalVisible, setModalVisible] = useState(false);
+const [isVideoPaused, setIsVideoPaused] = useState(true);
+
+const handlePlayPress = () => {
+  setIsVideoPaused(false);
+};
 return (
 <SafeAreaView style={{flex: 1, backgroundColor: Colors.white}}>
 <StatusBar translucent backgroundColor="rgba(0,0,0,0)" />
@@ -74,7 +80,14 @@ color: Colors.primary,
 <Text style={{fontWeight: "bold"}}> {changeEnglish ? '\nDatos Clave:':'\nKey Facts'}</Text>
 <Text style={{marginTop: 20, lineHeight: 22}}>{place.details1}</Text>
 <Text></Text>
-{/* <Video controls={true} source={require('../assets/videos/parque_caldas.mp4')}/> */}
+<Video
+    controls={false} // Show video controls
+    source= {place.video} // Replace with your video path
+    style={{ width: '100%', height: 200 }} // Adjust width and height as needed
+    paused={isVideoPaused}
+  />
+<Button title="Play Video" onPress={handlePlayPress} />
+
 <Text></Text> 
 </ScrollView>
 <View style={style.footer}>
